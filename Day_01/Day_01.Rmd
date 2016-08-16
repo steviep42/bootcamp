@@ -1,0 +1,121 @@
+---
+title: "Intro to R Bootcamp Day 01"
+author: "Steve Pittard"
+date: "August 16, 2016"
+output: html_document
+---
+
+# Getting Data Into R
+
+Getting Data into R is the first serious challenge that any newcomer to R will face. Usually you start by getting code snippets from other users and/or the Internet or perhaps out of one of the many R books available. There are no "rules" for importing data but there are common functions that are frequently used some of which I present here. You should be able to get a lot of mileage out these examples.
+
+## Import files with comma separated values (.CSV)
+
+These files are simple text files that have fields separated by a delimiter which is most often a comma although it could be a vertical bar character, a tab character, or even a space. Usually these types of files were once an Excel worksheet that someone decided to export into a .CSV file. These files can also come from other programs like SAS and SPSS. They are also commonly found on the Internet and easily be downloaded and/or many times read directly from the Internet site where it is hosted. 
+
+The advantage of this format is that it is generic and can easily be read by any analytics program anywhere. R provides a functions called **read.csv()** whose whole purpose in life is to import these types of files. There is also a function caleld **read.table()** which is the same function (under a different name) though most people beging with **read.csv()** since it has some "sane" defaults for reading in .CSV files. Let's see it in action
+
+
+```{r}
+# On Windows systems you might need to use the "more" command or
+# install PowerShell which provides UNIX like capabilities
+
+system("head /Users/fender/bootcamp/data/airports.csv")
+
+# From the above we see that there is a "header" line that tells us what the 
+# columns should be named. This is useful but not necessary
+
+# Let's specify the location and filename in a variable
+
+filename <- "/Users/fender/bootcamp/data/airports.csv"
+
+airports <- read.csv(filename)
+
+head(airports)
+
+str(airports)
+
+# The following is equivalent to the above call to read.csv
+
+airports <- read.csv(filename, header=TRUE, sep=",")
+```
+
+Ususally this is about as complicated as it gets although there are people who like to use tab characters "\t" as a delimeter. This might be useful for example if any of the fields contain text that has comma characters contained therein. In this case the delimiter is not a comma so there would be no confusion when reading in the file. We'll experiment with some examples in a bit. The analog to **read.csv()** is called **write.csv()** which takes an R data frame and creates a .CSV file. Here we will write out the aiports data frame into an external file without the header. 
+
+```{r}
+write.table(airports,file="airports_noheader.csv",col.names=FALSE,sep=",")
+
+system("head airports_noheader.csv")
+```
+
+The above makes some sense although for some strange reason it wrote out the file with row numbers which you may or may not want. It's not a big deal as the *read.csv()* function has an argument called *row.names* that if set to TRUE will understand that the .CSV file does in fact contain row names. You could always eliminate them once you have read in the data frame. If we wanted to prevent row names from being written here is how this would look:
+
+```{r}
+write.table(airports,file="airports_noheader.csv",row.names=FALSE, col.names=FALSE,sep=",")
+
+system("head -3 airports_noheader.csv") # List only the first 3 lines
+```
+
+Let's select a different delimiter just to prove that this can be done.
+
+```{r}
+write.table(airports,file="airports_noheader.csv",row.names=FALSE, 
+                     col.names=FALSE, sep="\t")
+
+system("head -3 airports_noheader.csv") # List only the first 3 lines
+```
+
+## Handling commas and within fields/columns in numeric values
+
+Now how would we handle the following .CSV file ? It looks innocent enough but look what happens when we accept the defaults offered by **read.csv()**
+
+```{r}
+system("head -3 /Users/fender/bootcamp/data/employees.csv")
+
+# The following will generate errors because read.csv wants to treat the commas in the
+# employee names as field/column separators and that isn't what we want.
+
+# employees <- read.csv("/Users/fender/bootcamp/data/employees.csv")
+
+
+# To fix this we will need to specify the correct delimiter
+
+employees <- read.csv("/Users/fender/bootcamp/data/employees.csv",sep="\t")
+head(employees)
+str(employees)
+```
+
+But the above still isn't correct as when read.csv processes the data it saw a comma in the salary column and assumed that that column is character. We want it to be numeric so we can do computations on it. The best way to handle this in my opinion is to go ahead and let R read in the data after which we will correct the problem using some other functions.
+
+```{r}
+employees <- read.csv("/Users/fender/bootcamp/data/employees.csv",sep="\t")
+
+employees$salary <- as.numeric(gsub(",","",employees$salary))
+
+str(employees)
+
+```
+
+The above works because the **gsub()** function is "vectorized" and will work on an entire column of data at a time. It's job is to look for a given character (in this case a comma) ad replace it with another character which we chose to be an empty space - but this is still a character so we have to then pass this result to the **as.numeric()** function to "coerce" it into a number. Here is the process step by step:
+```{r}
+employees <- read.csv("/Users/fender/bootcamp/data/employees.csv",sep="\t")
+
+num_string <- employees$salary
+str(num_string)
+
+new_num_string <- gsub(",","",num_string)
+str(new_num_string)
+
+final_num_string <- as.numeric(new_num_string)
+str(final_num_string)
+
+# So all at once 
+
+as.numeric(gsub(",","",employees$salary))
+```
+
+
+# Reading .CSV files directly from the Internet
+
+This is actually a great way to get information straight from the Internet without first having to download it. However, it is easy to download the information and then read it and you might want to do this just to be courteous to the hoster of the data since you don't want to write code that forever "hits" a server that one day might go away. But for exploratory stuff this is really cool. Here are some examples that will work with what we already know about the **read.csv()** command.
+
