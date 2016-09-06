@@ -1293,10 +1293,12 @@ str(employees)
 % 
 
 \begin{frame}[fragile]
-\frametitle{A Real Example} Go to the download link and find the file corresponding to individual contributions. The file has 12,395,164 records. It is an election year so there will be many records.
+\frametitle{A Real Example} If you go to the download link and find the file corresponding to individual contributions you will see that the file has 12,395,164 records. There is also a link to the data dictionary link that you can click.
 \newline
-\\
-There is also a link to the data dictionary link that you can click. It will tell us what to expect in terms of data. It looks like there are twenty one columns. The size of the file is about 426 Megabytes.
+\scriptsize
+\url{http://www.fec.gov/finance/disclosure/metadata/indiv_header_file.csv}
+\normalsize
+The size of the file is about 426 Megabytes. We won't work with that. Instead we will work with a prepared file that has information relating only to Georgia. 
 
 \footnotesize
 \url{http://www.fec.gov/finance/disclosure/ftpdet.shtml#a2015_2016}
@@ -1308,12 +1310,62 @@ There is also a link to the data dictionary link that you can click. It will tel
 
 \begin{frame}[fragile]
 \frametitle{A Real Example}Let's get to work on this file.
-\newline
-\\
-\footnotesize
-\url{http://www.fec.gov/finance/disclosure/ftpdet.shtml#a2015_2016}
-\newline
-\includegraphics{../IMG/campaign.png}
+\tiny
+\begin{verbatim}
+url <- "https://raw.githubusercontent.com/steviep42/bootcamp/master/data/georgia_campaign.txt"
+
+# Rather than read it directly from the Internet we'll first download it
+
+download.file(url,"georgia_campaign.txt")
+
+# Let's take a peek at the first three lines
+
+system("head -3 georgia_campaign.txt")
+
+C00076182|N|Q1|P|15951125081|15|IND|JAMES, JIM|HOSCHTON|GA|305481390|MAREL STORK POULTRY PROCESSING|VP OF TECHNICAL SERVICES|03242015|300||A0DAECF187E8D4B41ACF|1002289|||4041320151241796907
+C00076182|N|Q1||15951125081|15|IND|JAMES, JIM|HOSCHTON|GA|305481390|MAREL STORK POULTRY PROCESSING|VP OF TECHNICAL SERVICES|03242015|40||A49D962C4ECF047AB97B|1002289|||4041320151241796908
+C00186064|N|M4||15970338248|15|IND|NUNNERY, JOHN|COLUMBUS|GA|319062001|PNC BANK NA|SR. VICE PRESIDENT|03312015|100||PR363907910124|1002291||P/R DEDUCTION ($50.00 BI-WEEKLY)|4041320151241796958
+
+# Read it in
+
+gacamp <- read.csv("georgia_campaign.txt",sep="|",header=FALSE)
+
+head(gacamp,1)
+         V1 V2 V3 V4          V5 V6  V7         V8       V9 V10       V11
+1 C00076182  N Q1  P 15951125081 15 IND JAMES, JIM HOSCHTON  GA 305481390
+
+                             V12                      V13     V14 V15 V16
+1 MAREL STORK POULTRY PROCESSING VP OF TECHNICAL SERVICES 3242015 300    
+
+1 A0DAECF187E8D4B41ACF 1002289         4.04132e+18
+2 A49D962C4ECF047AB97B 1002289         4.04132e+18
+
+\end{verbatim}
+\end{frame}
+
+%
+
+
+\begin{frame}[fragile]
+\frametitle{A Real Example}Let's get to work on this file.
+\tiny
+\begin{verbatim}
+url <- "http://www.fec.gov/finance/disclosure/metadata/indiv_header_file.csv"
+
+( colnames <- read.csv(url,header=FALSE) )
+
+ [1] CMTE_ID         AMNDT_IND       RPT_TP          TRANSACTION_PGI IMAGE_NUM      
+ [6] TRANSACTION_TP  ENTITY_TP       NAME            CITY            STATE          
+[11] ZIP_CODE        EMPLOYER        OCCUPATION      TRANSACTION_DT  TRANSACTION_AMT
+[16] OTHER_ID        TRAN_ID         FILE_NUM        MEMO_CD         MEMO_TEXT      
+[21] SUB_ID         
+<0 rows> (or 0-length row.names)
+
+names(gacamp) <- as.vector(colnames)
+
+
+
+\end{verbatim}
 \end{frame}
 
 %
@@ -1404,9 +1456,8 @@ xyplot(Population ~ as.factor(Country), populous_table,
 
 \end{frame}
 
-
-
 %
+
 \begin{frame}[fragile]
 \frametitle{Reading Tabular Data}
 \begin{center}

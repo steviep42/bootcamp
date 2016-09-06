@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 SEP 2016 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 SEP 2016 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1507,11 +1507,11 @@ Package pdftex.def Info: ../IMG/election_website.png used on input line 6.
 \openout4 = `Lecture_1.1.vrb'.
 
 
-(./Lecture_1.1.vrb <../IMG/campaign.png, id=1681, 822.07124pt x 286.06876pt>
+(./Lecture_1.1.vrb <../IMG/campaign.png, id=1683, 822.07124pt x 286.06876pt>
 File: ../IMG/campaign.png Graphic file (type png)
 
 <use ../IMG/campaign.png>
-Package pdftex.def Info: ../IMG/campaign.png used on input line 7.
+Package pdftex.def Info: ../IMG/campaign.png used on input line 11.
 (pdftex.def)             Requested size: 273.83728pt x 95.28908pt.
 ) [59
 
@@ -1519,24 +1519,55 @@ Package pdftex.def Info: ../IMG/campaign.png used on input line 7.
 \openout4 = `Lecture_1.1.vrb'.
 
  (./Lecture_1.1.vrb
-<../IMG/world_population_wiki.png, id=1709, 711.65875pt x 353.32pt>
+Overfull \hbox (259.84515pt too wide) in paragraph at lines 14--14
+[]\T1/aett/m/n/6 C00076182|N|Q1|P|15951125081|15|IND|JAMES, JIM|HOSCHTON|GA|305
+481390|MAREL STORK POULTRY PROCESSING|VP OF TECHNICAL SERVICES|03242015|300||A0
+DAECF187E8D4B41ACF|1002289|||4041320151241796907[] 
+ []
+
+
+Overfull \hbox (253.4733pt too wide) in paragraph at lines 15--15
+[]\T1/aett/m/n/6 C00076182|N|Q1||15951125081|15|IND|JAMES, JIM|HOSCHTON|GA|3054
+81390|MAREL STORK POULTRY PROCESSING|VP OF TECHNICAL SERVICES|03242015|40||A49D
+962C4ECF047AB97B|1002289|||4041320151241796908[] 
+ []
+
+
+Overfull \hbox (269.40294pt too wide) in paragraph at lines 16--16
+[]\T1/aett/m/n/6 C00186064|N|M4||15970338248|15|IND|NUNNERY, JOHN|COLUMBUS|GA|3
+19062001|PNC BANK NA|SR. VICE PRESIDENT|03312015|100||PR363907910124|1002291||P
+/R DEDUCTION ($50.00 BI-WEEKLY)|4041320151241796958[] 
+ []
+
+) [60
+
+]
+\openout4 = `Lecture_1.1.vrb'.
+
+ (./Lecture_1.1.vrb) [61
+
+]
+\openout4 = `Lecture_1.1.vrb'.
+
+ (./Lecture_1.1.vrb
+<../IMG/world_population_wiki.png, id=1764, 711.65875pt x 353.32pt>
 File: ../IMG/world_population_wiki.png Graphic file (type png)
 
 <use ../IMG/world_population_wiki.png>
 Package pdftex.def Info: ../IMG/world_population_wiki.png used on input line 5.
 
 (pdftex.def)             Requested size: 184.94003pt x 99.58125pt.
-) [60
+) [62
 
  <../IMG/world_population_wiki.png>]
 \openout4 = `Lecture_1.1.vrb'.
 
-(./Lecture_1.1.vrb) [61
+(./Lecture_1.1.vrb) [63
 
 ]
 \openout4 = `Lecture_1.1.vrb'.
 
- (./Lecture_1.1.vrb) [62
+ (./Lecture_1.1.vrb) [64
 
 ]
 \openout4 = `Lecture_1.1.vrb'.
@@ -1547,31 +1578,20 @@ Overfull \hbox (1.96738pt too wide) in paragraph at lines 10--10
 on))/100000[] 
  []
 
-) [63
+) [65
 
 ]
 \openout4 = `Lecture_1.1.vrb'.
 
- (./Lecture_1.1.vrb <../IMG/world.png, id=1819, 461.725pt x 385.44pt>
+ (./Lecture_1.1.vrb <../IMG/world.png, id=1873, 461.725pt x 385.44pt>
 File: ../IMG/world.png Graphic file (type png)
 
 <use ../IMG/world.png>
 Package pdftex.def Info: ../IMG/world.png used on input line 3.
 (pdftex.def)             Requested size: 273.83728pt x 228.59566pt.
-) [64
+) [66
 
  <../IMG/world.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [65
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
-
-(./Lecture_1.1.vrb) [66
-
-]
 \openout4 = `Lecture_1.1.vrb'.
 
  (./Lecture_1.1.vrb) [67
@@ -1579,42 +1599,42 @@ Package pdftex.def Info: ../IMG/world.png used on input line 3.
 ]
 \openout4 = `Lecture_1.1.vrb'.
 
+
+(./Lecture_1.1.vrb) [68
+
+]
+\openout4 = `Lecture_1.1.vrb'.
+
+ (./Lecture_1.1.vrb) [69
+
+]
+\openout4 = `Lecture_1.1.vrb'.
+
  (./Lecture_1.1.vrb
-<../IMG/geocode.png, id=1925, 557.08125pt x 423.5825pt>
+<../IMG/geocode.png, id=1979, 557.08125pt x 423.5825pt>
 File: ../IMG/geocode.png Graphic file (type png)
 
 <use ../IMG/geocode.png>
 Package pdftex.def Info: ../IMG/geocode.png used on input line 5.
 (pdftex.def)             Requested size: 273.83923pt x 170.7162pt.
-) [68
+) [70
 
  <../IMG/geocode.png>]
 \openout4 = `Lecture_1.1.vrb'.
 
  (./Lecture_1.1.vrb
-<../IMG/xml.png, id=1954, 491.8375pt x 366.36874pt>
+<../IMG/xml.png, id=2008, 491.8375pt x 366.36874pt>
 File: ../IMG/xml.png Graphic file (type png)
  <use ../IMG/xml.png>
 Package pdftex.def Info: ../IMG/xml.png used on input line 3.
 (pdftex.def)             Requested size: 273.83728pt x 203.98553pt.
 )
-[69
+[71
 
  <../IMG/xml.png>]
 \openout4 = `Lecture_1.1.vrb'.
 
- (./Lecture_1.1.vrb) [70
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [71
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
-
-(./Lecture_1.1.vrb) [72
+ (./Lecture_1.1.vrb) [72
 
 ]
 \openout4 = `Lecture_1.1.vrb'.
@@ -1624,13 +1644,24 @@ Package pdftex.def Info: ../IMG/xml.png used on input line 3.
 ]
 \openout4 = `Lecture_1.1.vrb'.
 
- (./Lecture_1.1.vrb) [74
+
+(./Lecture_1.1.vrb) [74
+
+]
+\openout4 = `Lecture_1.1.vrb'.
+
+ (./Lecture_1.1.vrb) [75
+
+]
+\openout4 = `Lecture_1.1.vrb'.
+
+ (./Lecture_1.1.vrb) [76
 
 ]
 \openout4 = `Lecture_1.1.vrb'.
 
 
-(./Lecture_1.1.vrb) [75
+(./Lecture_1.1.vrb) [77
 
 ]
 \tf@nav=\write7
@@ -1642,21 +1673,21 @@ Package pdftex.def Info: ../IMG/xml.png used on input line 3.
 \tf@snm=\write9
 \openout9 = `Lecture_1.1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1673.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1673.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1740.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1740.
  (./Lecture_1.1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1673.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1673.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1740.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1740.
 
 Package rerunfilecheck Info: File `Lecture_1.1.out' has not changed.
-(rerunfilecheck)             Checksum: A3DBBACB06C21B6FA0B22DAD09A630B5;948.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1673.
+(rerunfilecheck)             Checksum: 3BA7F34394D6AF7CEF41BBC26B782C66;948.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1740.
  ) 
 Here is how much of TeX's memory you used:
- 18642 strings out of 493089
- 349968 string characters out of 6134842
+ 18654 strings out of 493089
+ 350106 string characters out of 6134842
  411272 words of memory out of 5000000
- 21285 multiletter control sequences out of 15000+600000
+ 21289 multiletter control sequences out of 15000+600000
  58319 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,63p,412b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1672,10 +1703,10 @@ r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on Lecture_1.1.pdf (75 pages, 1047202 bytes).
+Output written on Lecture_1.1.pdf (77 pages, 1053190 bytes).
 PDF statistics:
- 2214 PDF objects out of 2487 (max. 8388607)
- 2068 compressed objects within 21 object streams
- 167 named destinations out of 1000 (max. 500000)
+ 2269 PDF objects out of 2487 (max. 8388607)
+ 2120 compressed objects within 22 object streams
+ 171 named destinations out of 1000 (max. 500000)
  276 words of extra memory for PDF output out of 10000 (max. 10000000)
 
