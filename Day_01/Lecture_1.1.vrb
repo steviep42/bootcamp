@@ -1,0 +1,19 @@
+\frametitle{Sinking Your Work}
+If you want more control of the format of the plot output then you can use one of the functions desgined to create plots in a known format (PNG, JPEG, PDF).
+\footnotesize
+\begin{verbatim}
+set.seed(123)
+x <- rnorm(10)
+y <- rnorm(10)
+
+print(x)
+cat ("y =", y, "\n")
+
+t.test(x,y)
+
+pdf("myplots.pdf") # Redirects plots to myplots.pdf
+
+plot(x,y)
+
+dev.off() # Turns off plot redirection
+\end{verbatim}

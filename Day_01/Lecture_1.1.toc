@@ -1,0 +1,17 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Intro}{2}{0}{1}
+\beamer@sectionintoc {2}{Packages}{11}{0}{2}
+\beamer@sectionintoc {3}{Documentation}{20}{0}{3}
+\beamer@sectionintoc {4}{Basic Example Walkthrough}{26}{0}{4}
+\beamer@sectionintoc {5}{First Session}{36}{0}{5}
+\beamer@sectionintoc {6}{Functions}{40}{0}{6}
+\beamer@sectionintoc {7}{Workspace and Environment}{41}{0}{7}
+\beamer@sectionintoc {8}{Variables}{50}{0}{8}
+\beamer@sectionintoc {9}{Reading and Writing Data}{53}{0}{9}
+\beamer@subsectionintoc {9}{1}{Reading from the Internet}{55}{0}{9}
+\beamer@subsectionintoc {9}{2}{Reading in Numbers with Commas}{56}{0}{9}
+\beamer@subsectionintoc {9}{3}{Federal Campaign Contribution Data}{58}{0}{9}
+\beamer@subsectionintoc {9}{4}{Reading in Tables}{60}{0}{9}
+\beamer@subsectionintoc {9}{5}{Reading SAS Files}{66}{0}{9}
+\beamer@subsectionintoc {9}{6}{Reading Excel Files}{67}{0}{9}
+\beamer@sectionintoc {10}{Sinking Your Work}{71}{0}{10}
