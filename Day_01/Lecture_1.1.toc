@@ -11,7 +11,7 @@
 \beamer@subsectionintoc {9}{1}{Reading from the Internet}{55}{0}{9}
 \beamer@subsectionintoc {9}{2}{Reading in Numbers with Commas}{56}{0}{9}
 \beamer@subsectionintoc {9}{3}{Federal Campaign Contribution Data}{58}{0}{9}
-\beamer@subsectionintoc {9}{4}{Reading in Tables}{62}{0}{9}
-\beamer@subsectionintoc {9}{5}{Reading SAS Files}{68}{0}{9}
-\beamer@subsectionintoc {9}{6}{Reading Excel Files}{69}{0}{9}
-\beamer@sectionintoc {10}{Sinking Your Work}{73}{0}{10}
+\beamer@subsectionintoc {9}{4}{Reading in Tables}{63}{0}{9}
+\beamer@subsectionintoc {9}{5}{Reading SAS Files}{69}{0}{9}
+\beamer@subsectionintoc {9}{6}{Reading Excel Files}{70}{0}{9}
+\beamer@sectionintoc {10}{Sinking Your Work}{74}{0}{10}

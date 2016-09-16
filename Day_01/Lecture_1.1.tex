@@ -10,9 +10,9 @@
 \begin{document}
 \input{Lecture_1.1-concordance}
 
-\title{BIOS 545 Week 1 }
+\title{Intro to R BootCamp Day 1 }
 \author{Steve Pittard wsp@emory.edu}
-\subtitle{Department of Biostatistics and Bioinformatics}
+\subtitle{Lecture 1}
 \date{\today}
 
 \maketitle
@@ -1329,7 +1329,7 @@ C00186064|N|M4||15970338248|15|IND|NUNNERY, JOHN|COLUMBUS|GA|319062001|PNC BANK 
 
 # Read it in
 
-gacamp <- read.csv("georgia_campaign.txt",sep="|",header=FALSE)
+gacamp <- read.csv("georgia_campaign.txt",sep="|",header=FALSE, stringsAsFactors=FALSE)
 
 head(gacamp,1)
          V1 V2 V3 V4          V5 V6  V7         V8       V9 V10       V11
@@ -1346,31 +1346,76 @@ head(gacamp,1)
 
 %
 
-% 
 
 \begin{frame}[fragile]
 \frametitle{A Real Example}Let's get to work on this file.
 \tiny
 \begin{verbatim}
-url <- "http://www.fec.gov/finance/disclosure/metadata/indiv_header_file.csv"
+url <- "https://raw.githubusercontent.com/steviep42/bootcamp/master/data/indiv_header_file.csv"
 
-( colnames <- read.csv(url,header=FALSE) )
+# Note the "stringsAsFactors argument
 
- [1] CMTE_ID         AMNDT_IND       RPT_TP          TRANSACTION_PGI IMAGE_NUM      
- [6] TRANSACTION_TP  ENTITY_TP       NAME            CITY            STATE          
-[11] ZIP_CODE        EMPLOYER        OCCUPATION      TRANSACTION_DT  TRANSACTION_AMT
-[16] OTHER_ID        TRAN_ID         FILE_NUM        MEMO_CD         MEMO_TEXT      
-[21] SUB_ID         
-<0 rows> (or 0-length row.names)
+( colnames <- read.csv(url,sep=",",header=F,stringsAsFactors=FALSE) )
+       V1        V2     V3              V4        V5             V6        V7
+1 CMTE_ID AMNDT_IND RPT_TP TRANSACTION_PGI IMAGE_NUM TRANSACTION_TP ENTITY_TP
+    V8   V9   V10      V11      V12        V13            V14             V15
+1 NAME CITY STATE ZIP_CODE EMPLOYER OCCUPATION TRANSACTION_DT TRANSACTION_AMT
+       V16     V17      V18     V19       V20    V21
+1 OTHER_ID TRAN_ID FILE_NUM MEMO_CD MEMO_TEXT SUB_ID
 
-names(gacamp) <- as.vector(colnames)
+# Let's give each column a more descriptive name
 
+names(gacamp) <- as.vector(colnames[1,])
 
+head(gacamp,1)
+    CMTE_ID AMNDT_IND RPT_TP TRANSACTION_PGI   IMAGE_NUM TRANSACTION_TP
+1 C00076182         N     Q1               P 15951125081             15
+  ENTITY_TP       NAME     CITY STATE  ZIP_CODE                       EMPLOYER
+1       IND JAMES, JIM HOSCHTON    GA 305481390 MAREL STORK POULTRY PROCESSING
+                OCCUPATION TRANSACTION_DT TRANSACTION_AMT OTHER_ID
+1 VP OF TECHNICAL SERVICES        3242015             300         
+               TRAN_ID FILE_NUM MEMO_CD MEMO_TEXT      SUB_ID
+1 A0DAECF187E8D4B41ACF  1002289                   4.04132e+18
 
 \end{verbatim}
 \end{frame}
 
 %
+
+\begin{frame}[fragile]
+\frametitle{A Real Example}Let's get to work on this file.
+\tiny
+\begin{verbatim}
+str(gacamp)
+'data.frame':	267408 obs. of  21 variables:
+ $ CMTE_ID        : chr  "C00076182" "C00076182" "C00186064" "C00508804" ...
+ $ AMNDT_IND      : chr  "N" "N" "N" "N" ...
+ $ RPT_TP         : chr  "Q1" "Q1" "M4" "Q1" ...
+ $ TRANSACTION_PGI: chr  "P" "" "" "P" ...
+ $ IMAGE_NUM      : num  1.6e+10 1.6e+10 1.6e+10 1.6e+10 1.6e+10 ...
+ $ TRANSACTION_TP : chr  "15" "15" "15" "15E" ...
+ $ ENTITY_TP      : chr  "IND" "IND" "IND" "IND" ...
+ $ NAME           : chr  "JAMES, JIM" "JAMES, JIM" "NUNNERY, JOHN" "DOWNS, BERTIS" ...
+ $ CITY           : chr  "HOSCHTON" "HOSCHTON" "COLUMBUS" "ATHENS" ...
+ $ STATE          : chr  "GA" "GA" "GA" "GA" ...
+ $ ZIP_CODE       : chr  "305481390" "305481390" "319062001" "30606" ...
+ $ EMPLOYER       : chr  "MAREL STORK POULTRY PROCESSING" "MAREL STORK POULTRY PROCESSING" "PNC BANK NA" "N/A" ...
+ $ OCCUPATION     : chr  "VP OF TECHNICAL SERVICES" "VP OF TECHNICAL SERVICES" "SR. VICE PRESIDENT" "ATTORNEY" ...
+ $ TRANSACTION_DT : int  3242015 3242015 3312015 3302015 2272015 3312015 3032015 3152015 3312015 3272015 ...
+ $ TRANSACTION_AMT: int  300 40 100 500 500 2000 1000 2 50 250 ...
+ $ OTHER_ID       : chr  "" "" "" "C00401224" ...
+ $ TRAN_ID        : chr  "A0DAECF187E8D4B41ACF" "A49D962C4ECF047AB97B" "PR363907910124" "11AI-000046699" ...
+ $ FILE_NUM       : int  1002289 1002289 1002291 1003915 1003915 1003922 1003948 1003950 1003950 1002628 ...
+ $ MEMO_CD        : chr  "" "" "" "" ...
+ $ MEMO_TEXT      : chr  "" "" "P/R DEDUCTION ($50.00 BI-WEEKLY)" "EARMARKED THROUGH ACTBLUE CONDUIT COMMITTEE 03-31-2015  $38,539.37-SEE MEMO ON SCH A FOR LINE 11C" ...
+ $ SUB_ID         : num  4.04e+18 4.04e+18 4.04e+18 4.04e+18 4.04e+18 ...
+> 
+
+
+\end{verbatim}
+\end{frame}
+
+
 \subsection{Reading in Tables}
 \begin{frame}[fragile]
 \frametitle{Reading Tabular Data}
@@ -1458,9 +1503,8 @@ xyplot(Population ~ as.factor(Country), populous_table,
 
 \end{frame}
 
-
-
 %
+
 \begin{frame}[fragile]
 \frametitle{Reading Tabular Data}
 \begin{center}

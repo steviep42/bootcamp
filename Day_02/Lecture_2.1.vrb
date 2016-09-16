@@ -1,0 +1,27 @@
+\frametitle{Lists - twitteR}
+Example from the twitteR package
+\scriptsize
+\begin{verbatim}
+delta.tweets <- searchTwitter('@delta', n = 100)
+class(delta.tweets)
+[1] "list"
+
+delta.tweets
+[[1]]
+[1] "sotsoy: Apparently if you use your frequent flier miles on @delta
+they stick you at the back of the plane on every flight next to the bathroom"
+
+[[2]]
+[1] "ImTooNonFiction: My @Delta flight has been delayed for the last 2 hrs.
+We've been on plane at gate for 2+ hours and no mention of a voucher
+or compensation"
+
+[[3]]
+[1] "ShaneNHara: @Delta and @DeltaAssist, thank you for a swift boarding
+process here at SEA en route to LAX. Taking care of your loyal flyers
+= appreciated."
+
+[[4]]
+[1] "NaiiOLLG: RT @TheRealNickMara: ThankYou @Delta for a great flight!! #Work!!!"
+
+\end{verbatim}

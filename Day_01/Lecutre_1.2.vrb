@@ -1,0 +1,23 @@
+\frametitle{Vectors - DNA Strings}
+\footnotesize
+\begin{verbatim}
+nchar(my.str)
+[1] 20
+
+for (ii in 1:nchar(my.str)) {
+   cat(substr(my.str,ii,ii))
+}
+AACGACCCGGATGACTGAAC
+
+for (ii in nchar(my.str):1) {
+   cat(substr(my.str,ii,ii))
+}
+CAAGTCAGTAGGCCCAGCAA
+
+# Recipe to get the "collapsed" string back into a vector with
+# separate elements for each letter
+
+unlist(strsplit(my.str,""))
+[1] "A" "A" "C" "G" "A" "C" "C" "C" "G" "G" "A" "T" "G" "A" "C" "T" "G"
+    "A" "A" "C"
+\end{verbatim}

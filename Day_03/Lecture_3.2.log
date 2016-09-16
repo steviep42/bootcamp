@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 SEP 2016 19:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 SEP 2016 22:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Lecture_1.1.tex
-(./Lecture_1.1.tex
+**Lecture_3.2.tex
+(./Lecture_3.2.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamer.cls
@@ -735,6 +735,10 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@cols=\count153
 \TX@ftn=\toks46
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write5
+
+Excluding comment 'comment')
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeBo
 adilla.sty
 Package: beamerthemeBoadilla 2010/06/17  (rcs-revision d02a7cf4d8ae)
@@ -771,7 +775,7 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \FV@TabBox=\box53
 \c@FancyVerbLine=\count155
 \FV@StepNumber=\count156
-\FV@OutFile=\write5
+\FV@OutFile=\write6
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -877,31 +881,31 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 ))))
-(./Lecture_1.1.aux)
-\openout1 = `Lecture_1.1.aux'.
+(./Lecture_3.2.aux)
+\openout1 = `Lecture_3.2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 13.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Try loading font information for T1+aess on input line 10.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for T1+aess on input line 13.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
@@ -970,7 +974,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 10.
+Package hyperref Info: Link coloring OFF on input line 13.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -980,56 +984,56 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count163
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 
-(./Lecture_1.1.out) (./Lecture_1.1.out)
-\@outlinefile=\write6
-\openout6 = `Lecture_1.1.out'.
+(./Lecture_3.2.out) (./Lecture_3.2.out)
+\@outlinefile=\write7
+\openout7 = `Lecture_3.2.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 10.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 13.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 10.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 13.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/aer/m/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 10.
+(Font)                  OT1/cmss/m/n --> T1/aer/m/n on input line 13.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/aess/bx/n on input line 10.
+(Font)                  OT1/cmr/bx/n --> T1/aess/bx/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/aess/bx/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 10.
+(Font)                  OT1/cmr/bx/n --> T1/aess/bx/n on input line 13.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/aess/m/n on input line 10.
+(Font)                  OT1/cmss/m/n --> T1/aess/m/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/aess/m/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 10.
+(Font)                  OT1/cmss/bx/n --> T1/aess/m/n on input line 13.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/aess/m/it on input line 10.
+(Font)                  OT1/cmr/m/it --> T1/aess/m/it on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/aess/m/it on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 10.
+(Font)                  OT1/cmr/bx/it --> T1/aess/m/it on input line 13.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/aett/m/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> T1/aett/m/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/aett/m/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> T1/aett/m/n on input line 13.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/aess/m/n --> T1/aess/bx/n on input line 10.
+(Font)                  T1/aess/m/n --> T1/aess/bx/n on input line 13.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/aess/m/it --> T1/aess/bx/it on input line 10.
+(Font)                  T1/aess/m/it --> T1/aess/bx/it on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/aer/bx/n on input line 10.
+(Font)                  OT1/cmss/bx/n --> T1/aer/bx/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/aess/bx/n --> T1/aess/bx/n on input line 10.
+(Font)                  T1/aess/bx/n --> T1/aess/bx/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/aess/m/n --> T1/aess/bx/n on input line 10.
+(Font)                  T1/aess/m/n --> T1/aess/bx/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/aess/m/it --> T1/aess/bx/it on input line 10.
+(Font)                  T1/aess/m/it --> T1/aess/bx/it on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/aett/m/n --> T1/aett/bx/n on input line 10.
+(Font)                  T1/aett/m/n --> T1/aett/bx/n on input line 13.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1055,700 +1059,329 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 10.
+LaTeX Info: Redefining \includegraphics on input line 13.
 
-(./Lecture_1.1.nav) (./Lecture_1.1-concordance.tex)
+(./Lecture_3.2.nav) (./Lecture_3.2-concordance.tex)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 14.
+(hyperref)                setting the option has no effect on input line 17.
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-\openout4 = `Lecture_1.1.vrb'.
+\openout4 = `Lecture_3.2.vrb'.
 
 
-(./Lecture_1.1.vrb) [2
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-<../IMG/statmath.png, id=147, 477.785pt x 357.335pt>
-File: ../IMG/statmath.png Graphic file (type png)
- <use ../IMG/statmath.png>
-Package pdftex.def Info: ../IMG/statmath.png used on input line 3.
-(pdftex.def)             Requested size: 273.83728pt x 204.80081pt.
-) [3
-
- <../IMG/statmath.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-<../IMG/nytimes.png, id=177, 614.295pt x 427.5975pt>
-File: ../IMG/nytimes.png Graphic file (type png)
- <use ../IMG/nytimes.png>
-Package pdftex.def Info: ../IMG/nytimes.png used on input line 3.
-(pdftex.def)             Requested size: 273.83728pt x 190.60977pt.
-LaTeX Font Info:    Try loading font information for T1+aett on input line 6.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aett.fd
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+(./Lecture_3.2.vrb
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10.95> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 10.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10.95> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 6.
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <8> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <6> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 6.
-) [4
-
- <../IMG/nytimes.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 4.
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <7> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 4.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 10.
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <5> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 4.
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <9> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 25.
-) [5
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 10.
+) [2
 
 ]
-\openout4 = `Lecture_1.1.vrb'.
+\openout4 = `Lecture_3.2.vrb'.
 
- (./Lecture_1.1.vrb) [6
 
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb)
-[7
+(./Lecture_3.2.vrb) [3
 
 ]
-\openout4 = `Lecture_1.1.vrb'.
+\openout4 = `Lecture_3.2.vrb'.
 
- (./Lecture_1.1.vrb) [8
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-<../IMG/rvsothers.png, id=321, 497.86pt x 409.53pt>
-File: ../IMG/rvsothers.png Graphic file (type png)
- <use ../IMG/rvsothers.png>
-Package pdftex.def Info: ../IMG/rvsothers.png used on input line 3.
-(pdftex.def)             Requested size: 273.83728pt x 225.25468pt.
-) [9
-
- <../IMG/rvsothers.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [10
+ (./Lecture_3.2.vrb) [4
 
 ]
-\openout4 = `Lecture_1.1.vrb'.
+\openout4 = `Lecture_3.2.vrb'.
 
- (./Lecture_1.1.vrb
-Overfull \hbox (10.28119pt too wide) in paragraph at lines 11--11
-[]\T1/aett/m/n/8 [1] ".GlobalEnv"        "package:stats"     "package:graphics"
-  "package:grDevices"[] 
+ (./Lecture_3.2.vrb) [5
+
+]
+\openout4 = `Lecture_3.2.vrb'.
+
+
+(./Lecture_3.2.vrb) [6
+
+]
+\openout4 = `Lecture_3.2.vrb'.
+
+ (./Lecture_3.2.vrb
+LaTeX Font Info:    Try loading font information for T1+aett on input line 3.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+<../IMG/ggplot2_1.png, id=199, 737.75626pt x 465.74pt>
+File: ../IMG/ggplot2_1.png Graphic file (type png)
+
+<use ../IMG/ggplot2_1.png>
+Package pdftex.def Info: ../IMG/ggplot2_1.png used on input line 8.
+(pdftex.def)             Requested size: 273.83728pt x 172.8683pt.
+) [7
+
+ <../IMG/ggplot2_1.png>]
+\openout4 = `Lecture_3.2.vrb'.
+
+ (./Lecture_3.2.vrb
+<../IMG/qplot2_nofactor.png, id=230, 559.08875pt x 418.56375pt>
+File: ../IMG/qplot2_nofactor.png Graphic file (type png)
+
+<use ../IMG/qplot2_nofactor.png>
+Package pdftex.def Info: ../IMG/qplot2_nofactor.png used on input line 8.
+(pdftex.def)             Requested size: 273.84497pt x 199.16472pt.
+)
+Overfull \vbox (18.18802pt too high) detected at line 149
  []
 
+[8
+
+ <../IMG/qplot2_nofactor.png>]
+\openout4 = `Lecture_3.2.vrb'.
+
+ (./Lecture_3.2.vrb
+<../IMG/qplot_wfact.png, id=259, 554.07pt x 417.56pt>
+File: ../IMG/qplot_wfact.png Graphic file (type png)
+
+<use ../IMG/qplot_wfact.png>
+Package pdftex.def Info: ../IMG/qplot_wfact.png used on input line 9.
+(pdftex.def)             Requested size: 273.83728pt x 206.37106pt.
+)
+Overfull \vbox (13.64458pt too high) detected at line 165
+ []
+
+[9
+
+ <../IMG/qplot_wfact.png>]
+\openout4 = `Lecture_3.2.vrb'.
+
+ (./Lecture_3.2.vrb
+<../IMG/qplot3.png, id=287, 690.58pt x 403.5075pt>
+File: ../IMG/qplot3.png Graphic file (type png)
+ <use ../IMG/qplot3.png>
+Package pdftex.def Info: ../IMG/qplot3.png used on input line 8.
+(pdftex.def)             Requested size: 273.83728pt x 160.00249pt.
+)
+[10
+
+ <../IMG/qplot3.png>]
+\openout4 = `Lecture_3.2.vrb'.
+
+ (./Lecture_3.2.vrb
+<../IMG/ggplot_box.png, id=315, 579.16376pt x 487.8225pt>
+File: ../IMG/ggplot_box.png Graphic file (type png)
+
+<use ../IMG/ggplot_box.png>
+Package pdftex.def Info: ../IMG/ggplot_box.png used on input line 8.
+(pdftex.def)             Requested size: 273.83307pt x 199.16739pt.
 ) [11
 
+ <../IMG/ggplot_box.png>]
+\openout4 = `Lecture_3.2.vrb'.
+
+ (./Lecture_3.2.vrb
+<../IMG/qplot_geom_line.png, id=343, 575.14874pt x 461.725pt>
+File: ../IMG/qplot_geom_line.png Graphic file (type png)
+
+<use ../IMG/qplot_geom_line.png>
+Package pdftex.def Info: ../IMG/qplot_geom_line.png used on input line 8.
+(pdftex.def)             Requested size: 273.83914pt x 199.16492pt.
+)
+Overfull \vbox (6.43843pt too high) detected at line 211
+ []
+
+[12
+
+ <../IMG/qplot_geom_line.png>]
+\openout4 = `Lecture_3.2.vrb'.
+
+ (./Lecture_3.2.vrb
+File: ../IMG/qplot_geom_line.png Graphic file (type png)
+
+<use ../IMG/qplot_geom_line.png>
+Package pdftex.def Info: ../IMG/qplot_geom_line.png used on input line 8.
+(pdftex.def)             Requested size: 273.83914pt x 199.16492pt.
+) [13
+
 ]
-\openout4 = `Lecture_1.1.vrb'.
+\openout4 = `Lecture_3.2.vrb'.
 
- (./Lecture_1.1.vrb
-LaTeX Font Info:    Try loading font information for TS1+aett on input line 21.
+ (./Lecture_3.2.vrb
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <8> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 1.
 
+<../IMG/geom_ref.png, id=400, 534.99875pt x 289.08pt>
+File: ../IMG/geom_ref.png Graphic file (type png)
+
+<use ../IMG/geom_ref.png>
+Package pdftex.def Info: ../IMG/geom_ref.png used on input line 5.
+(pdftex.def)             Requested size: 273.83728pt x 147.97139pt.
+) [14
+
+ <../IMG/geom_ref.png>]
+\openout4 = `Lecture_3.2.vrb'.
+
+ (./Lecture_3.2.vrb
+<../IMG/qplot_line_color.png, id=429, 415.5525pt x 461.725pt>
+File: ../IMG/qplot_line_color.png Graphic file (type png)
+
+<use ../IMG/qplot_line_color.png>
+Package pdftex.def Info: ../IMG/qplot_line_color.png used on input line 9.
+(pdftex.def)             Requested size: 273.847pt x 199.16492pt.
+) [15
+
+ <../IMG/qplot_line_color.png>]
+\openout4 = `Lecture_3.2.vrb'.
+
+
+(./Lecture_3.2.vrb <../IMG/bar_cnt.png, id=457, 409.53pt x 517.935pt>
+File: ../IMG/bar_cnt.png Graphic file (type png)
+
+<use ../IMG/bar_cnt.png>
+Package pdftex.def Info: ../IMG/bar_cnt.png used on input line 12.
+(pdftex.def)             Requested size: 170.7204pt x 170.7136pt.
+) [16
+
+ <../IMG/bar_cnt.png>]
+\openout4 = `Lecture_3.2.vrb'.
+
+ (./Lecture_3.2.vrb
+<../IMG/qplot_am.png, id=486, 415.5525pt x 422.57875pt>
+File: ../IMG/qplot_am.png Graphic file (type png)
+
+<use ../IMG/qplot_am.png>
+Package pdftex.def Info: ../IMG/qplot_am.png used on input line 10.
+(pdftex.def)             Requested size: 273.847pt x 199.173pt.
+) [17
+
+ <../IMG/qplot_am.png>]
+\openout4 = `Lecture_3.2.vrb'.
+
+ (./Lecture_3.2.vrb
+LaTeX Font Info:    Try loading font information for TS1+aett on input line 4.
 
 (/Library/Frameworks/R.framework/Resources/share/texmf/tex/latex/ts1aett.fd
 File: ts1aett.fd 
 )
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 21.
-
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 4.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `TS1/aett/m/n' in size <8> not available
-(Font)              Font shape `TS1/cmtt/m/n' tried instead on input line 21.
-) [12
+(Font)              Font shape `TS1/cmtt/m/n' tried instead on input line 4.
 
-]
-\openout4 = `Lecture_1.1.vrb'.
+<../IMG/qplot_base.png, id=514, 409.53pt x 348.30125pt>
+File: ../IMG/qplot_base.png Graphic file (type png)
 
-
-(./Lecture_1.1.vrb) [13
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [14
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-<../IMG/taskviews.png, id=486, 690.58pt x 391.4625pt>
-File: ../IMG/taskviews.png Graphic file (type png)
-
-<use ../IMG/taskviews.png>
-Package pdftex.def Info: ../IMG/taskviews.png used on input line 5.
-(pdftex.def)             Requested size: 273.83728pt x 155.22629pt.
-) [15
-
- <../IMG/taskviews.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-LaTeX Font Info:    Font shape `TS1/aett/m/n' in size <9> not available
-(Font)              Font shape `TS1/cmtt/m/n' tried instead on input line 9.
+<use ../IMG/qplot_base.png>
+Package pdftex.def Info: ../IMG/qplot_base.png used on input line 10.
+(pdftex.def)             Requested size: 273.85251pt x 227.6208pt.
 )
-[16
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [17
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [18
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb)
-[19
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb)
-Overfull \hbox (5.05022pt too wide) in paragraph at lines 6--383
-[][]  
+Overfull \vbox (37.59431pt too high) detected at line 306
  []
 
-[20
+[18
 
-]
-\openout4 = `Lecture_1.1.vrb'.
+ <../IMG/qplot_base.png>]
+\openout4 = `Lecture_3.2.vrb'.
 
- (./Lecture_1.1.vrb
-Overfull \hbox (7.07843pt too wide) in paragraph at lines 6--20
-[][]  
- []
+ (./Lecture_3.2.vrb
+<../IMG/lattice_diamonds.png, id=543, 409.53pt x 348.30125pt>
+File: ../IMG/lattice_diamonds.png Graphic file (type png)
 
+<use ../IMG/lattice_diamonds.png>
+Package pdftex.def Info: ../IMG/lattice_diamonds.png used on input line 9.
+(pdftex.def)             Requested size: 273.85251pt x 199.16621pt.
+) [19
+
+ <../IMG/lattice_diamonds.png>]
+\openout4 = `Lecture_3.2.vrb'.
+
+
+(./Lecture_3.2.vrb <../IMG/qplot_alpha.png, id=572, 409.53pt x 348.30125pt>
+File: ../IMG/qplot_alpha.png Graphic file (type png)
+
+<use ../IMG/qplot_alpha.png>
+Package pdftex.def Info: ../IMG/qplot_alpha.png used on input line 9.
+(pdftex.def)             Requested size: 273.85251pt x 199.16621pt.
+) [20
+
+ <../IMG/qplot_alpha.png>]
+\openout4 = `Lecture_3.2.vrb'.
+
+ (./Lecture_3.2.vrb
+<../IMG/qplot_dia2.png, id=601, 409.53pt x 348.30125pt>
+File: ../IMG/qplot_dia2.png Graphic file (type png)
+
+<use ../IMG/qplot_dia2.png>
+Package pdftex.def Info: ../IMG/qplot_dia2.png used on input line 9.
+(pdftex.def)             Requested size: 273.85251pt x 199.16621pt.
 ) [21
 
-]
-\openout4 = `Lecture_1.1.vrb'.
+ <../IMG/qplot_dia2.png>]
+\openout4 = `Lecture_3.2.vrb'.
 
- (./Lecture_1.1.vrb) [22
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [23
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-Overfull \hbox (1.78537pt too wide) in paragraph at lines 15--15
-[]\T1/aett/m/n/8 datasets::austres     Quarterly Time Series of the Number of A
-ustralian Residents[] 
- []
-
-) [24
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [25
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [26
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-<../IMG/pollute.png, id=826, 501.875pt x 368.37625pt>
-File: ../IMG/pollute.png Graphic file (type png)
- <use ../IMG/pollute.png>
-Package pdftex.def Info: ../IMG/pollute.png used on input line 9.
-(pdftex.def)             Requested size: 273.84956pt x 199.16753pt.
-) [27
-
- <../IMG/pollute.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [28
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-<../IMG/3plot.png, id=880, 588.1975pt x 396.48125pt>
-File: ../IMG/3plot.png Graphic file (type png)
- <use ../IMG/3plot.png>
-Package pdftex.def Info: ../IMG/3plot.png used on input line 4.
-(pdftex.def)             Requested size: 341.43301pt x 199.1718pt.
+ (./Lecture_3.2.vrb
+<../IMG/qplot2.png, id=628, 615.29875pt x 425.59pt>
+File: ../IMG/qplot2.png Graphic file (type png)
+ <use ../IMG/qplot2.png>
+Package pdftex.def Info: ../IMG/qplot2.png used on input line 7.
+(pdftex.def)             Requested size: 273.83728pt x 189.40967pt.
 )
-[29
-
- <../IMG/3plot.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [30
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [31
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
-
-(./Lecture_1.1.vrb <../IMG/walk2.png, id=962, 501.875pt x 531.9875pt>
-File: ../IMG/walk2.png Graphic file (type png)
-
-<use ../IMG/walk2.png>
-Package pdftex.def Info: ../IMG/walk2.png used on input line 3.
-(pdftex.def)             Requested size: 273.84956pt x 227.62184pt.
-) [32
-
- <../IMG/walk2.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [33
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
-
-(./Lecture_1.1.vrb) [34
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [35
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [36
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
-
-(./Lecture_1.1.vrb) [37
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [38
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [39
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
-
-(./Lecture_1.1.vrb) [40
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [41
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [42
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
-
-(./Lecture_1.1.vrb) [43
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [44
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-Overfull \hbox (11.39923pt too wide) in paragraph at lines 8--8
-[] \T1/aett/m/n/9 chr [1:29] "001.csv" "002.csv" "003.csv" "004.csv" "005.csv" 
-"006.csv" ...[] 
- []
-
-) [45
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [46
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-Overfull \hbox (6.6833pt too wide) in paragraph at lines 12--12
-[]\T1/aett/m/n/9 [13] "SacramentocrimeJanuary2006"       "Sacramentorealestatet
-ransactions"[] 
- []
-
-) [47
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [48
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-Overfull \hbox (6.6833pt too wide) in paragraph at lines 8--8
-[]\T1/aett/m/n/9 [1] "assign" "call" "coefficients" "df.residual" "effects" "fi
-tted.values"[] 
- []
-
-) [49
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [50
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [51
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb)
-[52
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [53
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [54
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb)
-[55
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-LaTeX Font Info:    Font shape `TS1/aett/m/n' in size <6> not available
-(Font)              Font shape `TS1/cmtt/m/n' tried instead on input line 18.
-) [56
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [57
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-<../IMG/election_website.png, id=1651, 880.28876pt x 226.8475pt>
-File: ../IMG/election_website.png Graphic file (type png)
-
-<use ../IMG/election_website.png>
-Package pdftex.def Info: ../IMG/election_website.png used on input line 6.
-(pdftex.def)             Requested size: 273.83728pt x 70.56429pt.
-) [58
-
- <../IMG/election_website.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
-
-(./Lecture_1.1.vrb <../IMG/campaign.png, id=1683, 822.07124pt x 286.06876pt>
-File: ../IMG/campaign.png Graphic file (type png)
-
-<use ../IMG/campaign.png>
-Package pdftex.def Info: ../IMG/campaign.png used on input line 11.
-(pdftex.def)             Requested size: 273.83728pt x 95.28908pt.
-) [59
-
- <../IMG/campaign.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-Overfull \hbox (259.84515pt too wide) in paragraph at lines 14--14
-[]\T1/aett/m/n/6 C00076182|N|Q1|P|15951125081|15|IND|JAMES, JIM|HOSCHTON|GA|305
-481390|MAREL STORK POULTRY PROCESSING|VP OF TECHNICAL SERVICES|03242015|300||A0
-DAECF187E8D4B41ACF|1002289|||4041320151241796907[] 
- []
-
-
-Overfull \hbox (253.4733pt too wide) in paragraph at lines 15--15
-[]\T1/aett/m/n/6 C00076182|N|Q1||15951125081|15|IND|JAMES, JIM|HOSCHTON|GA|3054
-81390|MAREL STORK POULTRY PROCESSING|VP OF TECHNICAL SERVICES|03242015|40||A49D
-962C4ECF047AB97B|1002289|||4041320151241796908[] 
- []
-
-
-Overfull \hbox (269.40294pt too wide) in paragraph at lines 16--16
-[]\T1/aett/m/n/6 C00186064|N|M4||15970338248|15|IND|NUNNERY, JOHN|COLUMBUS|GA|3
-19062001|PNC BANK NA|SR. VICE PRESIDENT|03312015|100||PR363907910124|1002291||P
-/R DEDUCTION ($50.00 BI-WEEKLY)|4041320151241796958[] 
- []
-
-) [60
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [61
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-Overfull \hbox (20.90053pt too wide) in paragraph at lines 17--17
-[] \T1/aett/m/n/6 $ EMPLOYER       : chr  "MAREL STORK POULTRY PROCESSING" "MAR
-EL STORK POULTRY PROCESSING" "PNC BANK NA" "N/A" ...[] 
- []
-
-
-Overfull \hbox (20.90053pt too wide) in paragraph at lines 18--18
-[] \T1/aett/m/n/6 $ OCCUPATION     : chr  "VP OF TECHNICAL SERVICES" "VP OF TEC
-HNICAL SERVICES" "SR. VICE PRESIDENT" "ATTORNEY" ...[] 
- []
-
-
-Overfull \hbox (1.78496pt too wide) in paragraph at lines 19--19
-[] \T1/aett/m/n/6 $ TRANSACTION_DT : int  3242015 3242015 3312015 3302015 22720
-15 3312015 3032015 3152015 3312015 3272015 ...[] 
- []
-
-
-Overfull \hbox (1.78496pt too wide) in paragraph at lines 22--22
-[] \T1/aett/m/n/6 $ TRAN_ID        : chr  "A0DAECF187E8D4B41ACF" "A49D962C4ECF0
-47AB97B" "PR363907910124" "11AI-000046699" ...[] 
- []
-
-
-Overfull \hbox (1.78496pt too wide) in paragraph at lines 23--23
-[] \T1/aett/m/n/6 $ FILE_NUM       : int  1002289 1002289 1002291 1003915 10039
-15 1003922 1003948 1003950 1003950 1002628 ...[] 
- []
-
-
-Overfull \hbox (196.12659pt too wide) in paragraph at lines 25--25
-[] \T1/aett/m/n/6 $ MEMO_TEXT      : chr  "" "" "P/R DEDUCTION ($50.00 BI-WEEKL
-Y)" "EARMARKED THROUGH ACTBLUE CONDUIT COMMITTEE 03-31-2015  $38,539.37-SEE MEM
-O ON SCH A FOR LINE 11C" ...[] 
- []
-
-) [62
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-<../IMG/world_population_wiki.png, id=1790, 711.65875pt x 353.32pt>
-File: ../IMG/world_population_wiki.png Graphic file (type png)
-
-<use ../IMG/world_population_wiki.png>
-Package pdftex.def Info: ../IMG/world_population_wiki.png used on input line 5.
-
-(pdftex.def)             Requested size: 184.94003pt x 99.58125pt.
-) [63
-
- <../IMG/world_population_wiki.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
-(./Lecture_1.1.vrb) [64
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [65
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-Overfull \hbox (1.96738pt too wide) in paragraph at lines 10--10
-[]                                       \T1/aett/m/n/9 populous_table$Populati
-on))/100000[] 
- []
-
-) [66
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb <../IMG/world.png, id=1899, 461.725pt x 385.44pt>
-File: ../IMG/world.png Graphic file (type png)
-
-<use ../IMG/world.png>
-Package pdftex.def Info: ../IMG/world.png used on input line 3.
-(pdftex.def)             Requested size: 273.83728pt x 228.59566pt.
-) [67
-
- <../IMG/world.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [68
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
-
-(./Lecture_1.1.vrb) [69
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [70
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-<../IMG/geocode.png, id=2005, 557.08125pt x 423.5825pt>
-File: ../IMG/geocode.png Graphic file (type png)
-
-<use ../IMG/geocode.png>
-Package pdftex.def Info: ../IMG/geocode.png used on input line 5.
-(pdftex.def)             Requested size: 273.83923pt x 170.7162pt.
-) [71
-
- <../IMG/geocode.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb
-<../IMG/xml.png, id=2034, 491.8375pt x 366.36874pt>
-File: ../IMG/xml.png Graphic file (type png)
- <use ../IMG/xml.png>
-Package pdftex.def Info: ../IMG/xml.png used on input line 3.
-(pdftex.def)             Requested size: 273.83728pt x 203.98553pt.
-)
-[72
-
- <../IMG/xml.png>]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [73
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [74
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
-
-(./Lecture_1.1.vrb) [75
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [76
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
- (./Lecture_1.1.vrb) [77
-
-]
-\openout4 = `Lecture_1.1.vrb'.
-
-
-(./Lecture_1.1.vrb) [78
-
-]
-\tf@nav=\write7
-\openout7 = `Lecture_1.1.nav'.
-
-\tf@toc=\write8
-\openout8 = `Lecture_1.1.toc'.
-
-\tf@snm=\write9
-\openout9 = `Lecture_1.1.snm'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1784.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1784.
- (./Lecture_1.1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1784.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1784.
-
-Package rerunfilecheck Info: File `Lecture_1.1.out' has not changed.
-(rerunfilecheck)             Checksum: ACE178FB039A27073E8BC078E1BC3D1C;948.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1784.
+[22
+
+ <../IMG/qplot2.png>]
+\tf@nav=\write8
+\openout8 = `Lecture_3.2.nav'.
+
+\tf@toc=\write9
+\openout9 = `Lecture_3.2.toc'.
+
+\tf@snm=\write10
+\openout10 = `Lecture_3.2.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 370.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 370.
+ (./Lecture_3.2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 370.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 370.
+Package rerunfilecheck Info: File `Lecture_3.2.out' has not changed.
+(rerunfilecheck)             Checksum: 0607213836B90B4CD244558E2997097B;165.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 370.
  ) 
 Here is how much of TeX's memory you used:
- 18660 strings out of 493089
- 350175 string characters out of 6134842
- 411272 words of memory out of 5000000
- 21291 multiletter control sequences out of 15000+600000
- 58319 words of font info for 120 fonts, out of 8000000 for 9000
+ 18227 strings out of 493089
+ 345574 string characters out of 6134842
+ 403135 words of memory out of 5000000
+ 21118 multiletter control sequences out of 15000+600000
+ 34825 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,63p,412b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,63p,412b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on Lecture_1.1.pdf (78 pages, 1057371 bytes).
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on Lecture_3.2.pdf (22 pages, 434899 bytes).
 PDF statistics:
- 2295 PDF objects out of 2487 (max. 8388607)
- 2145 compressed objects within 22 object streams
- 173 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 701 PDF objects out of 1000 (max. 8388607)
+ 622 compressed objects within 7 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
 

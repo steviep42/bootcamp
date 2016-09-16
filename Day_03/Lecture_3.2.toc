@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{ggplot2}{2}{0}{1}
+\beamer@sectionintoc {2}{Terms}{3}{0}{2}
+\beamer@sectionintoc {3}{Learning}{5}{0}{3}
+\beamer@sectionintoc {4}{qplot}{7}{0}{4}

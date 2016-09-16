@@ -1,0 +1,8 @@
+\frametitle{ggplot2 - qplot}
+\scriptsize
+\begin{verbatim}
+qplot(displ, hwy, data=mpg, facets = . ~ year) + geom_smooth()
+\end{verbatim}
+\begin{center}
+\includegraphics{../IMG/qplot2.png}
+\end{center}

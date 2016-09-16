@@ -908,27 +908,16 @@ as.numeric(sapply(place,xmlValue))
 
 ### Reading Excel Files
 
-There are several packages that can help you do this such as **gdata, RODBC, XLConnect, xlsx ** and, for the most part, they do work most of the time with expected results. However, where possible I still strongly recommend first converting the Excel spreadhseet of interest into a .CSV file since it will eliminate most conversion problems when importing. It's also worth pointing out that some of these packages require an underlying Java Run Time environment of a certain level so keep this in mind. I should point out that there are some scenarios wherein you might want to update a spreadhseet using some R code and this can be done. There is even a package called *RExcel* that can help you do this. The scenarios I've seen that require this involve patient or clinical study "databases" maintained in Excel workbooks that the study managers understand. R Code can be written to execute at an arbitrary time to do some summary or statistical analysis across the worksheets while updating specific cells in a spreadsheet all without the study managers or administrators knowing or caring. If you want to go this route then check out the 'vignettes' for the RExcel package to get an idea about how this might work. 
+This is a popular request although I think it's probably better to read from .CSV files where possible. In the past there have been a number of packages dedicated to reading Excel with varying degress of success. Some will read only individual worksheets whereas others can access multiple worksheets within a workbook which is pretty nice. There is a package 
 
-### Reading SAS and SPSS files
-
-This can be a major concern if you work in an environment wherein tools like SAS and SPSS are the standard. For better or worse (depends on your point of view) software like SAS is going to be around for some time to come due to the longterm investment that companies and governmental organizations have in large bodies of code. Switching everything to R is an option although careful testing must take place to insure that results are being reproduced across the different languages. Many companies don't have the time or money to do this so they stick with what they know - although many newer companies are starting with R and Python instead of licensing tools. Keep in mind that what you are reading is the binary "dataset" format emanating from SAS or SPSS. That is you are not reading in text (That is what the **read.csv** function is for). The beauty of the **haven** package is that it can "decode" the SAS or SPSS binary format and translate it directly into an R data frame for you - at least that is the idea. Here is an example. We'll fetch a SAS dataset from the Internet that relates to lona defaults in the city of Las Vegas. Note that we don't need to install SAS in any way shape, form, or fashion to read this in using R. We just need the **haven** package.
 
 ```{r}
-# install.packages("haven")
-library(haven)
 
-# Other online SAS datsets can be found at http://www.stats.ox.ac.uk/pub/datasets/csb/
-# For a list of cool places to find interesting data look at 
-# https://catalog.data.gov/dataset?groups=education2168#topic=education_navigation
-# http://www.census.gov/programs-surveys/acs/news/data-releases.html
-# https://github.com/caesar0301/awesome-public-datasets
+# Note that one must install the devtools package
+# install("devtools")
+# 
+require(devtools)
 
-sasdataset <- "http://www.principlesofeconometrics.com/poe4/data/sas/lasvegas.sas7bdat"
-
-las_vegas_loans <- read_sas(sasdataset)
-
-las_vegas_loans
 
 ```
 
