@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Data Frames}{2}{0}{1}
+\beamer@sectionintoc {2}{Programming Stuctures}{18}{0}{2}
+\beamer@subsectionintoc {2}{1}{for loop}{23}{0}{2}
+\beamer@subsectionintoc {2}{2}{if statement}{38}{0}{2}
+\beamer@subsectionintoc {2}{3}{if and for}{47}{0}{2}
+\beamer@subsectionintoc {2}{4}{while statement}{54}{0}{2}

@@ -1,0 +1,19 @@
+\frametitle{Programming Structures - while }
+Taking the square root of a number and then taking the square root of that result and so will
+eventually converge to 1. We can use a while loop to do this
+\footnotesize
+\begin{verbatim}
+num <- 13
+sqrtval <- sqrt(num)
+
+# Loop until the sqrt value becomes equal to 1
+
+while ( sqrtval != 1)  {
+  sqrtval <- sqrt(sqrtval)
+
+# sprintf allows us to format a variable according to a pattern
+# See http://www.cookbook-r.com/Strings/Creating_strings_from_variables/
+
+  print(sprintf("%2.12f",sqrtval))
+}
+\end{verbatim}
